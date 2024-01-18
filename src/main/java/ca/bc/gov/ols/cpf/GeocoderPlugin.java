@@ -33,7 +33,7 @@ import ca.bc.gov.open.cpf.plugin.api.ResultList;
 @BusinessApplicationPlugin(
 		name = GeocoderPlugin.PLUGIN_NAME,
 		title = "Batch Geocoder",
-		version = GeocoderConfig.VERSION,
+		version = "4.4.0-J11",
 		description = "Batch Geocoder Service",
 		maxConcurrentRequests = 16,
 		numRequestsPerWorker = 1000)
